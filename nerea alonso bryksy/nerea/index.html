@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menú — Nerea Bryksy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav" aria-label="Menú principal fijo">
+    <div class="nav__inner">
+      <a class="brand" href="#top" aria-label="Ir al inicio">Nerea Bryksy</a>
+
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu-links" aria-label="Abrir menú">
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+
+      <ul id="menu-links" class="nav__links" role="menubar">
+        <li role="none"><a role="menuitem" href="#wildyriftian" data-target="#wildyriftian">wildyriftian.com</a></li>
+        <li role="none"><a role="menuitem" href="#tracingart"   data-target="#tracingart">getty.edu/tracingart</a></li>
+        <li role="none"><a role="menuitem" href="#ningh"        data-target="#ningh">ning-h.com</a></li>
+        <li role="none"><a role="menuitem" href="#vitality"     data-target="#vitality">clou.ch/projekte/vitality-cards</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="top" class="page">
+    <h1 class="visually-hidden">Índice de secciones</h1>
+
+    <section id="wildyriftian" class="section">
+      <h2>wildyriftian.com</h2>
+      <p><strong>Selección.</strong> Portfolio de un diseñador visual/motion (Wildy Riftian), destacado como “Site of the Week”. Interesante para analizar la mezcla de ilustración, animación, 3D y experiencia web.</p>
+      <p><strong>Impresión inicial.</strong> Muy creativo y enérgico; gran impacto visual y personalidad alta, aunque puede causar algo de desorientación inicial sobre qué hacer o dónde ir.</p>
+      <p><strong>Estructura.</strong> Navegación minimalista (menú reducido/oculto), secciones típicas de portfolio (“About”, “Works”, “Featured Work”). Mucho foco en la presentación personal; la jerarquía puede no ser evidente al primer vistazo.</p>
+      <p><strong>Visual.</strong> Predominio de fondos oscuros/neutros con piezas 3D e imágenes saturadas; tipografías sans modernas y grandes titulares; branding muy centrado en el “yo” creativo.</p>
+      <p><strong>Interacción.</strong> Animaciones y micro-interacciones con posibles efectos 3D/paralaje: suman dinamismo, pero en exceso pueden afectar rendimiento y usabilidad.</p>
+      <p><strong>Usabilidad.</strong> Alta expresividad frente a claridad inmediata; posibles carencias de accesibilidad (contraste, navegación sin animación) y riesgo de cargas pesadas.</p>
+      <p><strong>Técnico.</strong> Potenciales retos de LCP/TTI por lo gráfico; recomendable lazy-load y optimización de recursos.</p>
+      <p><strong>Criterios.</strong> Creatividad muy alta; contenido adecuado para portfolio; UX menos directa para usuarios que buscan rapidez.</p>
+      <p><strong>Conclusión.</strong> Gran vitrina de identidad y arte, con el aprendizaje de equilibrar estilo con claridad, performance y accesibilidad.</p>
+
+      <div class="image-grid">
+        <img src="media/wildyriftian imagen 1.png" alt="wildyriftian imagen 1" />
+        <img src="media/wildyriftian imagen 2.png" alt="wildyriftian imagen 2" />
+        <img src="media/wildyriftian imagen 3.png" alt="wildyriftian imagen 3" />
+        <img src="media/wildyriftian imagen 4.png" alt="wildyriftian imagen 4" />
+      </div>
+    </section>
+
+    <section id="tracingart" class="section">
+      <h2>getty.edu/tracingart</h2>
+      <p><strong>Selección.</strong> Proyecto del J. Paul Getty Trust (Getty Provenance Index) como ejemplo de narrativa web interactiva con datos de patrimonio cultural.</p>
+      <p><strong>Impresión inicial.</strong> Profesional e institucional, con scroll que dinamiza la lectura; transmite autoridad y profundidad.</p>
+      <p><strong>Estructura.</strong> Organizado por capítulos dentro de la narrativa “Tracing a Painting Through Time”. Buen balance de texto, imágenes, visualizaciones y líneas de tiempo.</p>
+      <p><strong>Visual.</strong> Paleta sobria (blancos/grises/negro) y tipografía limpia; branding consistente con institución cultural.</p>
+      <p><strong>Interacción.</strong> Efectos suaves de aparición y scroll; micro-interacciones discretas que ayudan a leer sin distraer.</p>
+      <p><strong>Usabilidad.</strong> Mensaje claro desde el inicio; explorar en profundidad requiere scroll prolongado. Accesibilidad presumiblemente buena, aunque a auditar.</p>
+      <p><strong>Técnico.</strong> Se espera buena performance y semántica; aun así, las imágenes grandes y el scroll-storytelling pueden tensionar LCP/TTI en conexiones lentas.</p>
+      <p><strong>Criterios.</strong> Creatividad y contenido excelentes para el tema; UX orientada a exploración guiada más que a búsqueda rápida.</p>
+      <p><strong>Conclusión.</strong> Gran caso de narrativa cultural basada en datos; conviene vigilar rendimiento y accesibilidad para audiencias amplias.</p>
+
+      <div class="image-grid">
+        <img src="media/tracingart imagen 1.png" alt="tracingart imagen 1" />
+        <img src="media/tracingart imagen 2.png" alt="tracingart imagen 2" />
+        <img src="media/tracingart imagen 3.png" alt="tracingart imagen 3" />
+        <img src="media/tracingart imagen 4.png" alt="tracingart imagen 4" />
+      </div>
+    </section>
+
+    <section id="ningh" class="section">
+      <h2>ning-h.com</h2>
+      <p><strong>Selección.</strong> Portfolio de Ning Huang (web experience & motion). Útil para comparar con el primer sitio por su enfoque en interacción y código.</p>
+      <p><strong>Impresión inicial.</strong> Minimalismo moderno con atención al detalle de movimiento; impresión profesional y tecnológica.</p>
+      <p><strong>Estructura.</strong> Secciones claras (“Design”, “Web Experience”, “Motion Design”); home con quién es, qué hace y proyectos destacados; jerarquía más convencional y fácil de seguir.</p>
+      <p><strong>Visual.</strong> Paleta limpia y tipografía moderna con mucho espacio en blanco; branding personal orientado a lo técnico.</p>
+      <p><strong>Interacción.</strong> Transiciones sutiles, hovers y micro-interacciones; clave para su identidad. Riesgo si no degradan bien en móvil.</p>
+      <p><strong>Usabilidad.</strong> Clara para entender perfil y contacto; revisar accesibilidad (contraste, alt, móvil). Carga más ligera que portfolios 3D muy pesados.</p>
+      <p><strong>Técnico.</strong> Atención esperada al rendimiento, aunque efectos pueden causar layout shift si no están optimizados.</p>
+      <p><strong>Criterios.</strong> Creatividad alta en experiencia; contenido claro; UX muy buena para público de diseño.</p>
+      <p><strong>Conclusión.</strong> Demuestra que “menos es más”: buena tipografía, espacio y micro-interacciones precisas.</p>
+
+      <div class="image-grid">
+        <img src="media/ningh imagen 1.png" alt="ningh imagen 1" />
+        <img src="media/ningh imagen 2.png" alt="ningh imagen 2" />
+        <img src="media/ningh imagen 3.png" alt="ningh imagen 3" />
+        <img src="media/ningh imagen 4.png" alt="ningh imagen 4" />
+      </div>
+    </section>
+
+    <section id="vitality" class="section">
+      <h2>clou.ch/projekte/vitality-cards</h2>
+      <p><strong>Selección.</strong> Caso de estudio de agencia (Clou Werbeagentur, Luzern) para un producto; aporta contraste frente a portfolios personales.</p>
+      <p><strong>Impresión inicial.</strong> Profesional y pulido con enfoque “marca premium”; objetivo claro: mostrar/vender “Vitality Cards”.</p>
+      <p><strong>Estructura.</strong> Landing directa: producto → beneficios → compra; imágenes, explicación del concepto y enlace al shop.</p>
+      <p><strong>Visual.</strong> Paleta sobria con fotografía limpia; tipografía elegante; branding de producto “wellness” de tono premium.</p>
+      <p><strong>Interacción.</strong> Transiciones suaves y hovers medidos; prioriza calidad percibida sin excesos.</p>
+      <p><strong>Usabilidad.</strong> Foco en CTA y claridad; importante optimizar imágenes para carga; accesibilidad a revisar.</p>
+      <p><strong>Técnico.</strong> Rendimiento potencialmente mejor que sites 3D; si usa Webflow u otro, atender scripts que añadan peso.</p>
+      <p><strong>Criterios.</strong> Creatividad moderada-alta; contenido claro y orientado a valor de producto; UX pensada para conversión.</p>
+      <p><strong>Conclusión.</strong> Buen ejemplo de landing eficaz: objetivo nítido, diseño limpio y CTA fuerte; puede ampliar profundidad con más “por qué funciona”.</p>
+
+      <div class="image-grid">
+        <img src="media/vitality imagen 1.png" alt="vitality imagen 1" />
+        <img src="media/vitality imagen 2.png" alt="vitality imagen 2" />
+        <img src="media/vitality imagen 3.png" alt="vitality imagen 3" />
+        <img src="media/vitality imagen 4.png" alt="vitality imagen 4" />
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
